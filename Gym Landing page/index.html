@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <title>GymBroz</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('boxer-1984344_1920 (2) (1).jpg');
+            color: white;
+            font-family: 'Fredoka', sans-serif;
+            ;
+        }
+
+        .right {
+
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            top: 40px;
+            right: 30px;
+        }
+
+        .mid {
+            border: 5px solid blueviolet;
+            border-radius: 30px;
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+
+        }
+
+        .mid:hover {
+            background-color: blueviolet;
+            ;
+            transition: 0.5s;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 40px;
+            font-family: 'Rubik Wet Paint', cursive;
+        }
+
+        /* .navbar {} */
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 27px;
+
+        }
+
+        .navbar li a:hover {
+            /* color: rgb(101, 33, 165); */
+            /* transition: 0.3s; */
+            font-size: 22px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .left img {
+            width: 65px;
+            filter: invert(100%);
+        }
+
+        #logoname {
+            text-align: center;
+        }
+
+        .mybtn {
+            border: 2px solid blueviolet;
+            margin: 15px;
+            padding: 9px;
+            text-align: center;
+            border-radius: 13px;
+            /* width: 150px; */
+
+
+        }
+
+        .mybtn {
+            color: white;
+            text-decoration: none;
+        }
+
+        .mybtn:hover {
+            background-color: rgb(109, 36, 178);
+            transition: 0.3s;
+        }
+
+        .container {
+            border: 5px solid blueviolet;
+            display: inline-block;
+            border-radius: 10px;
+            margin: 120px 120px;
+            padding: 30px;
+            width: 40%;
+            /* display: flex;
+            justify-content: center;
+            align-items: centre; */
+        }
+
+        .content input {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        /* .last {
+
+        } */
+
+        .finalbtn {
+            margin: 10px 10px;
+            padding: 10px;
+            border-radius: 18px;
+            cursor: pointer;
+            background-color: blueviolet;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: bold;
+        }
+
+        .finalbtn:hover {
+            background-color: rgb(179, 105, 249);
+            transition: 0.4s;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="Picsart_23-08-18_20-00-58-977.png" alt="">
+            <div id="logoname">GymBroz</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="https://www.healthline.com/nutrition/best-diet-plans" target="_blank">Diet</a></li>
+                <li><a href="https://www.healthline.com/nutrition/workout-routine-for-men" target="_blank">Exercise</a>
+                </li>
+                <li><a href="https://www.nytimes.com/guides/well/beginner-yoga" target="_blank">Yoga</a></li>
+                <li><a href="https://www.webmd.com/fitness-exercise/guide-toc" target="_blank">Guidance</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- <button class="btn">Email</button>
+            <button class="btn">Call Us</button> -->
+            <a href="#" class="mybtn">Email</a>
+            <a href="#" class="mybtn">Call Us</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Be a part of Fitness regime now</h1>
+
+        <div class="content">
+            <input type="text" class="" id="" placeholder="Enter your name"><br>
+            <input type="text" class="" id="" placeholder="Email"><br>
+            <input type="text" class="" id="" placeholder="Phone Number"><br>
+        </div>
+        <div>
+            <div class="last">
+                <input type="submit" value="Submit Now" class="finalbtn">
+                <input type="reset" value="Reset" class="finalbtn">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
